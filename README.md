@@ -1,39 +1,30 @@
-# BATMOBILE
-- This is a Repo for BATMOBILE Project for " Industrial Electronics " Subject.
+# 4-Bit Pesudo Random Number Generator
+- This is a Repo for 4-Bit Pesudo Random Number Generator.
 
-# Features
-BATMOBILE is controlled in two ways: 
-
-- First, it is controlled using voice as We send voice instruction [ "move" - "back" - "right" - "left - "stop" ] from a smart phone recognized by 
-Google speech recognetion system and sent by UART.
-
-- Second Method: We designed a PCB to have a Joystick and bluetooth module. we send the sampled values of joystick by the bluetooth module to the car using UART.
+# Features 
+- A 4-bit Pseudo Random Number Generator was developed, featuring flip-flops, XOR gates, and set circuits.
+- Utilizing Tanner EDA, the design was meticulously crafted for optimal performance. Rigorous verification via DRC, LVS verification, and Post Layout Simulation ensured design integrity and functionality.
 
 
-# System Design
-![image](https://user-images.githubusercontent.com/68661639/218057238-3cb3cea2-ab03-448e-8a87-1d802a718bee.png)
+# 4-bit Pseudo Random Number Generator Schematic
+![Picture](https://github.com/AyaRedaOsman/4-Bit-Pseudo-Random-Number-Generator/assets/102327986/e459626c-e8a5-47f7-a21a-a69bf6f37cd8)
 
-# Programming
-- Batmobile is controlled using Atmega328p Microcontroller.
+# 4-bit Pseudo Random Number Generator Testbench
+![Picture2](https://github.com/AyaRedaOsman/4-Bit-Pseudo-Random-Number-Generator/assets/102327986/5bcc5327-c2e8-4464-a47f-2a70c1cb3efe)
 
-## Divide and Conquer
-![image](https://user-images.githubusercontent.com/68661639/218057724-5118be18-8d50-4d7b-8878-f8eda25a016e.png)
+# 4-bit Pseudo Random Number Generator Simulation
+![Picture3](https://github.com/AyaRedaOsman/4-Bit-Pseudo-Random-Number-Generator/assets/102327986/9b8f7342-3c33-48dd-9c60-d934046fa021)
 
+# 4-bit Pseudo Random Number Generator Layout
+![Picture4](https://github.com/AyaRedaOsman/4-Bit-Pseudo-Random-Number-Generator/assets/102327986/28d173b1-ffc2-456c-be78-ee48f7dfcd1e)
 
-# Mechanical Design
-- We have our own mechanical design for the car and printed it using Laser-cut.
-![image](https://user-images.githubusercontent.com/68661639/218057945-3c84dd5c-cc37-4251-b573-1013b78dcf01.png)
+# 4-bit Pseudo Random Number Generator DRC
+![Picture5](https://github.com/AyaRedaOsman/4-Bit-Pseudo-Random-Number-Generator/assets/102327986/ef986ea4-b342-45fa-967e-6de6b299a049)
 
-
-
-# Live The Journey with us
-
-
-
-https://user-images.githubusercontent.com/68661639/218056512-bd46240f-cf86-4eb2-896d-3c4ce9b015dd.mp4
+# 4-bit Pseudo Random Number Generator LVS
+![Picture6](https://github.com/AyaRedaOsman/4-Bit-Pseudo-Random-Number-Generator/assets/102327986/adee81ff-deb7-4c34-8538-fb3bdaecf01a)
 
 
-https://user-images.githubusercontent.com/68661639/218055018-f3c22b01-4f3d-4fc2-ba58-83db455d854f.mp4
 
 
 
